@@ -24,7 +24,7 @@ const Section2 = () => {
   }, []);
 
   return (
-    <div className="relative mx-auto px-10 py-16 text-white rounded-lg mt-5 bg-gray-800 bg-opacity-10 backdrop-blur-md overflow-hidden"
+    <div className="relative mx-auto px-10 py-16 text-white mt-5 bg-gray-800 bg-opacity-10 backdrop-blur-md overflow-hidden"
          style={{ background: "linear-gradient(90deg, rgba(172, 172, 172, 0.2) 0%, rgba(70, 70, 70, 0.2) 50%, rgba(172, 172, 172, 0.2) 100%)" }}>
       
       {/* Curved top cutout */}
@@ -40,17 +40,17 @@ const Section2 = () => {
       
       {/* Countdown */}
       <div className="flex justify-center gap-4 mb-6">
-        <div className="flex flex-col shadow-md items-center py-4 px-7 rounded-lg"
+        <div className="flex flex-col shadow-md items-center py-4 px-7 rounded-lg lg:max-w-[8%] lg:min-w-[8%]"
              style={{ background: "linear-gradient(90deg, rgba(172, 172, 172, 0.2) 0%, rgba(70, 70, 70, 0.2) 50%, rgba(172, 172, 172, 0.2) 100%)" }}>
           <span className="text-4xl">{hours}</span>
           <span className="text-gray-300 text-base">soat</span>
         </div>
-        <div className="flex flex-col shadow-md items-center py-4 px-7 rounded-lg"
+        <div className="flex flex-col shadow-md items-center py-4 px-7 rounded-lg lg:max-w-[8%] lg:min-w-[8%]"
              style={{ background: "linear-gradient(90deg, rgba(172, 172, 172, 0.2) 0%, rgba(70, 70, 70, 0.2) 50%, rgba(172, 172, 172, 0.2) 100%)" }}>
           <span className="text-4xl">{minutes}</span>
           <span className="text-gray-300 text-base">minut</span>
         </div>
-        <div className="flex flex-col shadow-md items-center py-4 px-7 rounded-lg"
+        <div className="flex flex-col shadow-md items-center py-4 px-7 rounded-lg lg:max-w-[8%] lg:min-w-[8%]"
              style={{ background: "linear-gradient(90deg, rgba(172, 172, 172, 0.2) 0%, rgba(70, 70, 70, 0.2) 50%, rgba(172, 172, 172, 0.2) 100%)" }}>
           <span className="text-4xl ">{counter}</span>
           <span className="text-gray-300 text-base">sekund</span>
