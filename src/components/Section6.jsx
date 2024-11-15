@@ -32,9 +32,9 @@ const Section6 = () => {
           </div>
 
           <div >
-            <button className="w-[300px] mt-[100px] py-3 bg-gradient-to-r from-red-500 to-red-600 text-white font-semibold rounded-lg hover:from-red-600 hover:to-red-700 transition-shadow shadow-md hover:shadow-lg">
-              Webinarga yozilish
-            </button>
+          <button className="py-3 px-12 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
+            Ro’yhatdan o’tish
+        </button>
           </div>
         </div>
       </div>

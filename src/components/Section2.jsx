@@ -24,11 +24,14 @@ const Section2 = () => {
   }, []);
 
   return (
-    <div className="relative mx-auto px-10 py-16 text-white rounded-lg mt-5 bg-gray-800 bg-opacity-10 backdrop-blur-md overflow-hidden"
+    <div className="mx-auto  px-10 py-16 text-white  bg-gray-800 bg-opacity-10 backdrop-blur-md overflow-hidden rounded-b-md"
          style={{ background: "linear-gradient(90deg, rgba(172, 172, 172, 0.2) 0%, rgba(70, 70, 70, 0.2) 50%, rgba(172, 172, 172, 0.2) 100%)" }}>
-      
+      {/* <div className="w-full p-7 absolute top-0 mx-auto"   style={{ 
+                background: 'linear-gradient(90deg, rgba(172, 172, 172, 0.2) -10.01%, rgba(70, 70, 70, 0.2) 50.05%, rgba(172, 172, 172, 0.2) 110.09%)'
+            }}>
+            </div> */}
       {/* Curved top cutout */}
-
+      
       
       {/* Decorative Images */}
       <img className='absolute max-w-[170px] bottom-[0px] ' src={bantik} alt="bantik" />

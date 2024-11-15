@@ -1,12 +1,16 @@
 export default function Component() {
     return (
         <div 
-            className="text-white rounded-2xl overflow-hidden" 
+            className="text-white rounded-2xl overflow-hidden  w-[1280px] mx-auto mt-10 mb-10" 
             style={{ 
                 background: 'linear-gradient(90deg, rgba(172, 172, 172, 0.2) -10.01%, rgba(70, 70, 70, 0.2) 50.05%, rgba(172, 172, 172, 0.2) 110.09%)'
             }}
         >
-            <div className="max-w-7xl mx-auto px-4 py-12 md:px-6 lg:px-8">
+      
+            <div className="max-w-7xl  mx-auto px-4 py-12 md:px-6 lg:px-8 relative">
+                <div className="bg-black w-[80px] h-[80px] rounded-full absolute  top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+
+                </div>
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex-1 space-y-6 text-center md:text-left">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif tracking-tight">
@@ -24,7 +28,7 @@ export default function Component() {
                             </p>
                         </div>
                         <button className="py-3 px-12 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
-                            Webinar uchun ro&apos;yhatdan o&apos;tish
+                            Webinarga yozilish
                         </button>
                     </div>
                     <div className="flex-1 flex justify-center md:justify-end">
