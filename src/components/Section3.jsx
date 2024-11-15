@@ -46,7 +46,7 @@ const Section3 = () => {
           {labels.map((label, index) => (
             <span
               key={index}
-              className={`absolute ${label.position} text-white text-sm lg:px-3 lg:py-1 py-2 px-3 lg:max-w-[13%] lg:max-h-[13%] backdrop-blur-md rounded-2xl flex items-center text-center bg-gradient-to-r from-gray-500/20 via-gray-700/20 to-gray-500/20`}
+              className={`absolute ${label.position} text-white lg:max-h-[13%] text-sm lg:px-3 lg:py-1 py-2 px-3  lg:text-center backdrop-blur-md rounded-2xl flex items-center text-center bg-gradient-to-r from-gray-500/20 via-gray-700/20 to-gray-500/20`}
             >
               {label.text}
             </span>
