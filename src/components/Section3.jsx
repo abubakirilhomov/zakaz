@@ -14,7 +14,7 @@ const Section3 = () => {
   ];
 
   const labels = [
-    { text: "Erkak e’tiborsizligi", position: "lg:top-[-10%] lg:left-[30%]" },
+    { text: "Erkak e’tiborsizligi", position: "lg:top-[-10%] lg:left-[30%] " },
     { text: "O’zidan uyalish", position: "lg:top-[-5%] lg:right-[30%]" },
     { text: "O’ziga nisbatan ishonchsizlik", position: "lg:top-[15%] lg:left-[20%]" },
     { text: "Kuchli stress", position: "lg:top-[40%] lg:left-[30%]" },
