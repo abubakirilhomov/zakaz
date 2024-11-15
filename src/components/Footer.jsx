@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaYoutube, FaTelegramPlane } from "react-icons/fa";
-
+//cjiewohviuorbuvirwbvniuervr
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-500 py-8 px-4">
@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="flex space-x-4 text-pink-500 mt-5 mb-5">
             <a href="#" className="hover:text-pink-400">
               <FaInstagram size={20} />
-            </a>
+            </a> 
             <a href="#" className="hover:text-pink-400">
               <FaYoutube size={20} />
             </a>
