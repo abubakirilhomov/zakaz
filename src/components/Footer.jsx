@@ -1,12 +1,12 @@
 import React from "react";
 import { FaInstagram, FaYoutube, FaTelegramPlane } from "react-icons/fa";
-
+//cjiewohviuorbuvirwbvniuervr
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-500 py-8 px-4">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="text-sm md:text-left text-center mb-4 md:mb-0">
-          <p className="font-semibold">
+      <div className="container lg:mx-auto flex flex-col md:flex-row justify-between lg:items-center">
+        <div className="text-sm md:text-left lg:text-center mb-4 md:mb-0">
+          <p className="font-semibold mb-5">
             "NADIA'S SCHOOL" MAS'ULIYATI CHEKLANGAN JAMIYAT
           </p>
           <p>ИНН: 311141396</p>
@@ -16,8 +16,8 @@ const Footer = () => {
         </div>
 
         <div className="text-white">
-          <div className="text-sm   space-y-2 mb-4 md:mb-0">
-            <a href="#" className="block hover:text-gray-400">
+          <div className="text-sm space-y-2 mb-4 md:mb-0">
+            <a href="#" className="block text-start hover:text-gray-400">
               Публичная оферта
             </a>
             <a href="#" className="block hover:text-gray-400">
@@ -25,10 +25,10 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="flex space-x-4 text-pink-500 mt-5">
+          <div className="flex space-x-4 text-pink-500 mt-5 mb-5">
             <a href="#" className="hover:text-pink-400">
               <FaInstagram size={20} />
-            </a>
+            </a> 
             <a href="#" className="hover:text-pink-400">
               <FaYoutube size={20} />
             </a>
