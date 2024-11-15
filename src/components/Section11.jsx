@@ -1,7 +1,7 @@
 export default function Component() {
     return (
         <div 
-            className="text-white rounded-2xl overflow-hidden  w-[1280px] mx-auto mt-10 mb-10" 
+            className="text-white rounded-2xl   w-[1280px] mx-auto mt-[-50px] mb-10" 
             style={{ 
                 background: 'linear-gradient(90deg, rgba(172, 172, 172, 0.2) -10.01%, rgba(70, 70, 70, 0.2) 50.05%, rgba(172, 172, 172, 0.2) 110.09%)'
             }}
