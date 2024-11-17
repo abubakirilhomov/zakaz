@@ -1,13 +1,13 @@
 export default function Component() {
     return (
         <div 
-            className="text-white rounded-2xl w-full max-w-screen-xl mx-auto mt-[-50px] mb-10 px-4"
+            className="text-white rounded-2xl w-full max-w-screen-xl mx-auto lg:mt-[-50px] mb-10 px-4"
             style={{ 
                 background: 'linear-gradient(90deg, rgba(172, 172, 172, 0.2) -10.01%, rgba(70, 70, 70, 0.2) 50.05%, rgba(172, 172, 172, 0.2) 110.09%)'
             }}
         >
             <div className="max-w-7xl mx-auto px-4 py-12 md:px-6 lg:px-8 relative">
-                <div className="bg-black w-[80px] h-[80px] rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+                <div className="bg-black lg:max-w-[80px] lg:max-h-[80px] max-w-[50px] max-h-[50px] w-full h-full rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex-1 space-y-6 text-center md:text-left">
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif tracking-tight">

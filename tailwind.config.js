@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        kugile: ['Kugile', 'sans-serif'], // Ваш кастомный шрифт
+      },
+    },
   },
   plugins: [
     require('daisyui'),

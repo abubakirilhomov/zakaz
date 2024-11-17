@@ -6,6 +6,7 @@ import Section6 from './components/Section6';
 import Section11 from './components/Section11';
 import Footer from './components/Footer';
 import Section3 from './components/Section3';
+import "./assets/fonts/Kugile_Demo.ttf"
 
 function App() {
   return (

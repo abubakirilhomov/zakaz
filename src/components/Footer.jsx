@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-500 py-8 px-4">
       <div className="container lg:mx-auto flex flex-col md:flex-row justify-between lg:items-center">
-        <div className="text-sm md:text-left lg:text-center mb-4 md:mb-0">
+        <div className="text-sm md:text-left lg:text-start mb-4 md:mb-12">
           <p className="font-semibold mb-5">
             "NADIA'S SCHOOL" MAS'ULIYATI CHEKLANGAN JAMIYAT
           </p>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="border-gray-600" />
+      <hr className="border-gray-900" />
       <div className="text-center text-gray-500 mt-4 text-xs">
         © 2024 Nadia’s school. Все права защищены
       </div>

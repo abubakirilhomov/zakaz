@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+@font-face {
+    font-family: 'Kugile';
+    src: url('/src/assets/fonts/Kugile-Demo.ttf') format('truetype');
+} */
