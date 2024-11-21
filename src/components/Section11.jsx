@@ -24,9 +24,9 @@ export default function Component() {
                                 Webinarda sizni yanada ko&apos;proq sovg&apos;alar kutib turibti!
                             </p>
                         </div>
-                        <button className="py-3 px-8 md:px-12 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
+                        <a href="https://t.me/nadiaBot?start=start"  className="py-3 px-8 md:px-12 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
                             Webinarga yozilish
-                        </button>
+                        </a>
                     </div>
                     <div className="flex-1 flex justify-center md:justify-end">
                         <div className="relative w-full max-w-md">

@@ -39,8 +39,10 @@ export default function Component() {
                 />
               </div>
               <div className="text-center md:text-right">
-                <p className="text-sm md:text-base font-light">20-noyabr</p>
-                <p className="text-xl md:text-3xl font-light text-red-500">20:00</p>
+                <p className="text-sm md:text-base font-light">27-noyabr</p>
+                <p className="text-xl md:text-3xl font-light text-red-500">
+                  20:00
+                </p>
               </div>
             </div>
           ) : (
@@ -63,10 +65,16 @@ export default function Component() {
             </div>
           )}
 
-          {isMobile ? "" : <div className="text-center md:text-right">
-            <p className="text-sm md:text-base font-light">20-noyabr</p>
-            <p className="text-xl md:text-3xl font-light text-red-500">20:00</p>
-          </div>}
+          {isMobile ? (
+            ""
+          ) : (
+            <div className="text-center md:text-right">
+              <p className="text-sm md:text-base font-light">27-noyabr</p>
+              <p className="text-xl md:text-3xl font-light text-red-500">
+                20:00
+              </p>
+            </div>
+          )}
         </div>
 
         <div className="mt-8 md:mt-32 max-w-md md:max-w-2xl mx-auto md:ml-36 text-center md:text-left">
@@ -80,9 +88,15 @@ export default function Component() {
             5 qadam
           </p>
           <div className="mt-72 lg:mt-0">
-            <button className="w-full md:max-w-[40%] py-3 px-6 md:px-10 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
+            <a
+              href="https://t.me/nadiaBot?start=start"
+              className="w-full md:max-w-[40%] py-3 px-6 md:px-10 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Webinarga yozilish
-            </button>
+            </a>
+
             <div className="flex flex-col md:flex-row items-center gap-2 md:gap-3 text-lg md:text-xl mt-6 justify-center md:justify-start">
               <span className="line-through text-gray-500">300.000 so'm</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] font-medium">

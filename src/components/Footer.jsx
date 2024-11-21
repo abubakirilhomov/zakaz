@@ -26,13 +26,24 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-4 text-pink-500 mt-5 mb-5">
-            <a href="#" className="hover:text-pink-400">
+            <a
+              href="https://www.instagram.com/nadia.abdullakhodjaeva?igsh=cWg5anJ1bG50b3d2"
+              className="hover:text-pink-400"
+            >
               <FaInstagram size={20} />
-            </a> 
-            <a href="#" className="hover:text-pink-400">
+            </a>
+            <a
+              href="https://youtube.com/@nadiaabdullakhodjaeva?si=Et5G5mALfIQhKMzr"
+              className="hover:text-pink-400"
+            >
               <FaYoutube size={20} />
             </a>
-            <a href="#" className="hover:text-pink-400">
+            <a
+              href="https://t.me/nadia_admini"
+              className="hover:text-pink-400"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaTelegramPlane size={20} />
             </a>
           </div>
