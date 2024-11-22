@@ -32,7 +32,7 @@ const Section6 = () => {
           </div>
 
           <div >
-          <a href="https://t.me/nadiaBot?start=start" className="py-4  px-12 w-full lg:max-w-[90%] lg:mt-10 mt-5 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
+          <a href="https://t.me/nadiaa_kursbot?start=start" className="py-4  px-12 w-full lg:max-w-[90%] lg:mt-10 mt-5 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300">
             Ro’yhatdan o’tish
         </a>
           </div>

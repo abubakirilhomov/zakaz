@@ -89,7 +89,7 @@ export default function Component() {
           </p>
           <div className="mt-72 lg:mt-0">
             <a
-              href="https://t.me/nadiaBot?start=start"
+              href="https://t.me/nadiaa_kursbot?start=start"
               className="w-full md:max-w-[40%] py-3 px-6 md:px-10 rounded-lg font-medium text-white bg-gradient-to-r from-[#660116] via-[#C73659] to-[#A91D3A] hover:from-[#A91D3A] hover:to-[#660116] transition duration-300"
               target="_blank"
               rel="noopener noreferrer"
