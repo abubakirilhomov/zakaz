@@ -39,7 +39,7 @@ export default function Component() {
                 />
               </div>
               <div className="text-center md:text-right">
-                <p className="text-sm md:text-base font-light">27-noyabr</p>
+                <p className="text-sm md:text-base font-light">10-Dekabr</p>
                 <p className="text-xl md:text-3xl font-light text-red-500">
                   20:00
                 </p>
@@ -69,7 +69,7 @@ export default function Component() {
             ""
           ) : (
             <div className="text-center md:text-right">
-              <p className="text-sm md:text-base font-light">27-noyabr</p>
+              <p className="text-sm md:text-base font-light">10-Dekabr</p>
               <p className="text-xl md:text-3xl font-light text-red-500">
                 20:00
               </p>

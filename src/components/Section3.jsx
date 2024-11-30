@@ -7,12 +7,12 @@ import female from "../assets/female.png";
 
 const Section3 = () => {
   const items = [
-    { icon: icon1, text: "Jinsiy hayot asoslari" },
-    { icon: icon2, text: "Jinsiy aloqaning fiziologik va psixologik jihatlari" },
-    { icon: icon3, text: "Noto’g’ri jinsiy tarbiya" },
+    { icon: icon1, text: "O’zingizga bo’lgan ishonchni, jozibadorlikni, o’zingizga baho berishni  oshirishni gaplashamiz!" },
+    { icon: icon2, text: "Ideal jinsiy aloqa formulasi" },
+    { icon: icon3, text: "Notog’ri jinsiy tarbiya ( jinsiy buzilishlar, vagenizm, dispoureniya)\n" },
     {
       icon: icon4,
-      text: "Jinsiy buzilishlar (vagenizm, dispoureniya, fetishizm, vamperizm, vuaverizm)",
+      text: "Oila qurish arafasidagi yoshlar birinchi kechaga qanday tayyorlanishi haqida.",
     },
   ];
 
